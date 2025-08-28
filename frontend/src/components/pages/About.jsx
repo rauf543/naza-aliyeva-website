@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Award, BookOpen } from 'lucide-react'
-import headshotPlaceholder from '../../assets/headshot-reference.png'
+import nazaHeadshot from '../../assets/naza-headshot.jpg'
 
 const About = () => {
   const navigate = useNavigate()
@@ -34,7 +34,7 @@ const About = () => {
             <div className="text-center lg:text-left">
               <div className="relative inline-block">
                 <img 
-                  src={headshotPlaceholder} 
+                  src={nazaHeadshot} 
                   alt="Naza Aliyeva, MSc - Professional Headshot" 
                   className="w-80 h-80 object-cover rounded-2xl shadow-2xl"
                 />
