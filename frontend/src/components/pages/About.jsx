@@ -29,16 +29,15 @@ const About = () => {
       {/* Main Content */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Professional Photo */}
-            <div className="text-center lg:text-left">
+            <div className="text-center lg:text-left mt-8">
               <div className="relative inline-block">
                 <img 
                   src={nazaHeadshot} 
                   alt="Naza Aliyeva, MSc - Professional Headshot" 
                   className="w-80 h-80 object-cover rounded-2xl shadow-2xl"
                 />
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-600/20 to-green-600/20"></div>
               </div>
             </div>
 
